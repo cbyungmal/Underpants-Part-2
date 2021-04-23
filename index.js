@@ -19,6 +19,13 @@ var _ = {};
 
 _.indexOf = function(array, value){
   //CODE BELOW HERE 
+for(var i = 0; i <= array.length - 1; i++){
+  if(value === Array[i]){
+return array
+  } else {
+    return -1
+  }
+}
 
 
 
@@ -47,8 +54,13 @@ _.indexOf = function(array, value){
 
 _.contains = function(array, value){
 //CODE BELOW HERE
-
-
+for(var i = 0; i <= array.length - 1; i++){
+  if(value === array[i]){
+    console.log(true)
+  } else {
+    console.log(false);
+  }
+}
 
 
 
